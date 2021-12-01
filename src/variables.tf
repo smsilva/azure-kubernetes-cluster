@@ -13,9 +13,11 @@ variable "cluster_location" {
 variable "cluster_version" {
   type        = string
   description = "Cluster Version"
+  default     = "1.21.2"
 }
 
 variable "resource_group_name" {
   type        = string
   description = "Resource Group Name"
+  default     = "wasp-aks"
 }
