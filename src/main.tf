@@ -15,7 +15,7 @@ locals {
   virtual_network_name    = "${local.cluster_name}-vnet"
   virtual_network_cidrs   = ["10.0.0.0/8"]
   virtual_network_subnets = [{ cidr = "10.150.0.0/16", name = "aks" }]
-  resource_group_name     = var.resource_group_name != "" ? var.resource_group_name : local.cluster_name
+  resource_group_name     = local.cluster_name
   cluster_admin_group_ids = var.cluster_admin_group_ids
 }
 

@@ -16,12 +16,6 @@ variable "cluster_version" {
   default     = "1.21.2"
 }
 
-variable "resource_group_name" {
-  type        = string
-  description = "Resource Group Name"
-  default     = ""
-}
-
 variable "cluster_admin_group_ids" {
   type        = list(string)
   description = "AKS Admin Groups"
