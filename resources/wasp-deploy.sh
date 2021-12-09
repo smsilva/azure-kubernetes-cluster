@@ -9,6 +9,6 @@ if [ ! -e "${TERRAFORM_TFVARS_FILE}" ]; then
 fi
 
 env DEBUG=2 stackrun \
-  azure-kubernetes-cluster:0.1.0 plan \
+  azure-kubernetes-cluster:0.1.0 apply -auto-approve \
     -var-file=/opt/variables/wasp.tfvars \
     -var-file=/opt/variables/${TERRAFORM_TFVARS_FILE?}
