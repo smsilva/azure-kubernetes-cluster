@@ -1,3 +1,9 @@
+## 0.3.0 (2021-12-11)
+
+### Feat
+
+- **stack.yaml**: will update the terraform version to 1.1.0
+
 ## 0.2.0 (2021-12-10)
 
 ### Fix
