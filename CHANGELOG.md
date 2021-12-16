@@ -1,3 +1,9 @@
+## 0.3.1 (2021-12-16)
+
+### Fix
+
+- **variables**: update default terraform variables
+
 ## 0.3.0 (2021-12-11)
 
 ### Feat
